@@ -42,6 +42,55 @@
     scale: 1.3;
     box-shadow: 8px 15px 20px black;
 }
+@media screen and (max-width:1000px) {
+    .navbar-container{
+        flex-direction: row;
+    }
+    .navbar-name{
+        width: 100%;
+        font-size: 2.8rem;
+        padding: 1.5rem;
+    }
+    .navbar-buttons{
+        width: 100%;
+        gap: 2.8rem;
+    }
+    .navbar-buttons input{
+        width: 5.9rem;
+        height: 2.6rem;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .navbar-container{
+        flex-direction: column;
+    }
+    .navbar-name{
+        width: 100%;
+        font-size: 2.8rem;
+        padding: 1.5rem;
+    }
+    .navbar-buttons{
+        width: 100%;
+        gap: 8.9rem;
+    }
+    .navbar-buttons input{
+        width: 7rem;
+        height: 2.6rem;
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width:630px) {
+    .navbar-buttons{
+        width: 100%;
+        gap: 5rem;
+    }
+    .navbar-buttons input{
+        width: 7rem;
+        height: 2.6rem;
+        font-size: 1.8rem;
+    }
+}
 @media screen and (max-width:500px) {
     .navbar-container{
         flex-direction: column;
