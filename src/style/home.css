@@ -5,7 +5,6 @@
     display: flex;
     align-items: center;
     box-sizing: border-box;
-    
 }
 .home-info-container{
     height: 100%;
@@ -72,6 +71,7 @@
 }
 .blob{
     position: relative;
+    z-index: -1;
 }
 .blob img{
     height: 46rem;

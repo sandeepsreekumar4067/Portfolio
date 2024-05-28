@@ -45,3 +45,92 @@
 .polygon-about-details-1 span{
     color: #FFF7F1;
 }
+
+
+
+
+
+@media screen and (max-height:650px) and (max-width:600px) {
+    .skill-title{
+        margin-top: 12rem;
+    }
+}
+@media screen and (max-height:620px) and (max-width:600px) {
+    .skill-title{
+        margin-top: 18rem;
+    }
+}
+
+@media screen and ( max-height:530px) {
+    .skill-title{
+        margin-top: 20rem;
+    }
+}
+
+@media screen and (max-height:480px) {
+    .skill-title{
+        margin-top: 25rem;
+    }
+}
+@media screen and (max-width:800px) {
+    .skill-title{
+        margin-top: 10rem;
+        font-size: 2.8rem;
+        width: 100%;
+    }
+    .polygon1{
+        clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+        width: 95%;
+        height: 20rem;
+    }
+    .polygon-about-details-1{
+        padding: 1rem;
+    }
+    .polygon-about-details-1 h1{
+        font-size: 1.8rem;
+    }
+    .polygon-about-details-1 p{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .skill-title{
+        margin-top: 4rem;
+        font-size: 2rem;
+        width: 100%;
+    }
+    .polygon1{
+        clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+        width: 95%;
+        height: 20rem;
+    }
+    .polygon-about-details-1{
+        padding: 1rem;
+    }
+    .polygon-about-details-1 h1{
+        font-size: 1.8rem;
+    }
+    .polygon-about-details-1 p{
+        font-size: 0.9rem;
+    }
+}
+@media screen and (max-width:300px) {
+    .skill-title{
+        padding: 3rem;
+        font-size: 1.5rem;
+    }
+    .polygon1{
+        clip-path: polygon(0 0, 89% 0, 100% 100%, 0% 100%);
+        width: 95%;
+        height: 20rem;
+    }
+    .polygon-about-details-1{
+        padding: 1rem;
+    }
+    .polygon-about-details-1 h1{
+        font-size: 1.8rem;
+    }
+    .polygon-about-details-1 p{
+        font-size: 0.9rem;
+    }
+}
