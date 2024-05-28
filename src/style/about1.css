@@ -1,0 +1,47 @@
+.about-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.skill-title{
+    padding: 5rem;
+    font-size: 3rem;
+    color: white;
+}
+.skill-title span{
+    color: #FF204E;
+    font-weight: 500;
+}
+.slide-container-1{
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+}
+.polygon1{
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
+    height: 100%;
+    width: 70%;
+    background-color: rgb(255,255,255,0.25);
+    display: flex;
+    align-items: center;
+}
+.polygon-about-details-1{
+    height: 100%;
+    width: 69%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+}
+.polygon-about-details-1 h1{
+    font-size: 3rem;
+}
+.polygon-about-details-1 p{
+    font-size: 1.5rem;
+}
+.polygon-about-details-1 span{
+    color: #FFF7F1;
+}
