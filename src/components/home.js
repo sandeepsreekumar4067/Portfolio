@@ -7,12 +7,12 @@ const Home = () => {
             <div className="home-info-container">
                 <div className="name-and-details">
                     <h1>Hey There</h1>
-                    <h2>I'm Sandeep Sreekumar</h2>
-                    <h3>I'm a Front-End Developer</h3>
+                    <h2>I'm <span>Sandeep Sreekumar</span></h2>
+                    <h3>I'm a <span>Front-End</span> Developer</h3>
                 </div>
                 <div className="download-section">
-                    <input type="button" value="Mail" />
-                    <input type="button" value="Resume" />
+                    <input className="mail" type="button" value="Mail" />
+                    <input className="resume" type="button" value="Resume" />
                 </div>
             </div>
             <div className="blob-and-programmer">

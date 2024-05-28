@@ -7,9 +7,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #2F58CD;
   overflow-x: hidden;
-}
+  font-family: "Quicksand", sans-serif;
 
+}
+html{
+  overflow-x: hidden;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+body {
+  -ms-overflow-style:none;
 }
