@@ -12,7 +12,12 @@ const About = () => {
                 <div className="polygon1">
                     <div className="polygon-about-details-1">
                         <h1>About me</h1>
-                        <p>Hello! I'm <span>Sandeep Sreekumar</span>, a passionate and driven <span>Computer Science</span> student pursuing a B.Tech degree in <span>Computer Science and Engineering</span>. With a strong foundation in <span>Frontend development</span>, I specialize in creating dynamic and user-friendly <span>web and mobile applications</span>.</p>
+                        <p>Hello! I'm <span>Sandeep Sreekumar</span>,
+                         a passionate and driven <span>Computer Science</span> 
+                         student pursuing a B.Tech degree in <span>Computer Science and 
+                        Engineering</span>. With a strong foundation in <span>Frontend 
+                        development</span>, I specialize in creating dynamic and user-friendly
+                         <span>web and mobile applications</span>.</p>
                     </div>
                 </div>
             </div>

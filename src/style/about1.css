@@ -3,17 +3,21 @@
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+    top: 0;
+    position: sticky;
 }
 .skill-title{
-    padding: 5rem;
+    padding-top: 15rem;
     font-size: 3rem;
     color: white;
+    padding-left: 2rem;
 }
 .skill-title span{
     color: #FF204E;
     font-weight: 500;
 }
 .slide-container-1{
+    margin-top: 3rem;
     width: 100%;
     height: 25rem;
     display: flex;
@@ -49,29 +53,6 @@
 
 
 
-
-@media screen and (max-height:650px) and (max-width:600px) {
-    .skill-title{
-        margin-top: 12rem;
-    }
-}
-@media screen and (max-height:620px) and (max-width:600px) {
-    .skill-title{
-        margin-top: 18rem;
-    }
-}
-
-@media screen and ( max-height:530px) {
-    .skill-title{
-        margin-top: 20rem;
-    }
-}
-
-@media screen and (max-height:480px) {
-    .skill-title{
-        margin-top: 25rem;
-    }
-}
 @media screen and (max-width:800px) {
     .skill-title{
         margin-top: 10rem;

@@ -8,10 +8,11 @@ body {
   background-color: #2F58CD;
   overflow-x: hidden;
   font-family: "Quicksand", sans-serif;
-
+  box-sizing: border-box;
 }
 html{
   overflow-x: hidden;
+  overflow-y: auto;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -27,4 +28,10 @@ code {
 
 body {
   -ms-overflow-style:none;
+  overflow-y: auto;
+}
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }

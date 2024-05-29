@@ -70,7 +70,7 @@
     justify-content: center;
 }
 .blob{
-    position: relative;
+    /* position: relative; */
     z-index: -1;
 }
 .blob img{
