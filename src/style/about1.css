@@ -23,6 +23,11 @@
     height: 25rem;
     display: flex;
     align-items: center;
+    transition: 0.6s ease-in-out;
+    transform: translateX(-100%);
+}
+.slide-container-1.visible{
+    transform: translateX(0);
 }
 .polygon1{
     clip-path: polygon(0 0, 70% 0, 100% 100%, 0% 100%);
@@ -40,6 +45,7 @@
     flex-direction: column;
     padding: 2rem;
     text-align: center;
+    
 }
 .polygon-about-details-1 h1{
     font-size: 3rem;
@@ -58,6 +64,11 @@
     display: flex;
     align-items: center;
     justify-content: end;
+    transform: translateX(100%);
+    transition: 0.6s ease-in-out;
+}
+.slide-container-2.visible{
+    transform: translateX(0);
 }
 .polygon2{
     clip-path: polygon(23% 0, 100% 0, 100% 100%, 0% 100%);
@@ -94,7 +105,27 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    opacity: 0;
 }
+.popup-container-3.visible{
+    opacity: 1;
+    animation: animate-popup 0.6s ease-in-out;
+}
+@keyframes animate-popup {
+    0%{
+        scale:0;
+        opacity: 1;
+    }
+    50%{
+        scale: 1.1;
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
 .polygon3{
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
     height: 30rem;
@@ -124,10 +155,15 @@
     width: 14rem;
 }
 
+
+
+
+
+
 @media screen and (max-width:1200px) {
     .skill-title{
         margin-top: 10rem;
-        font-size: 3rem;
+        font-size: 4rem;
         width: 100%;
     }
     .polygon1{
