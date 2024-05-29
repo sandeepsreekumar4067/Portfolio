@@ -7,10 +7,6 @@ const Home = () => {
     const handleMailButtonClick = () => {
         window.location.href = `mailto:${email}`;
     };
-    const handleResumeButtonClick = () => {
-        // Replace '/CV_2024050712340861.pdf' with the correct path to your resume
-        window.location.href = '/CV_2024050712340861.pdf';
-    };
     return ( 
         <div className="home-component" id="home">
             <div className="home-info-container">
