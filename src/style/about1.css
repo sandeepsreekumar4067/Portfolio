@@ -11,6 +11,7 @@
     font-size: 3rem;
     color: white;
     padding-left: 2rem;
+    width: 100%;
 }
 .skill-title span{
     color: #FF204E;
@@ -44,10 +45,11 @@
     font-size: 3rem;
 }
 .polygon-about-details-1 p{
+    color: white;
     font-size: 1.5rem;
 }
 .polygon-about-details-1 span{
-    color: #FFF7F1;
+    color: #A1EEBD;
 }
 .slide-container-2{
     margin-top: 3rem;
@@ -76,6 +78,7 @@
     font-size: 3rem;
 }
 .polygon-about-details-2 p{
+    color: white;
     font-size: 1.4rem;
 }
 .polygon-about-details-2 span{
@@ -110,10 +113,11 @@
     font-size: 3rem;
 }
 .polygon-about-details-3 p{
+    color: white;
     font-size: 1.4rem;
 }
 .polygon-about-details-3 span{
-    color: #7743DB;
+    color: #A1EEBD;
 }
 .child img{
     height: 14rem;
