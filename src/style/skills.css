@@ -1,0 +1,75 @@
+/* Skills.css */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap');
+  
+.skillsetContainer{
+  margin-top: 15rem;
+}
+
+.skills-container {
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .line {
+    position: absolute; /* Change from fixed to absolute */
+    top: 0; /* It will now start from the top of the Skills container */
+    left: 50%;
+    width: 0.28rem;
+    height: 0;
+    background-color: #DCFFB7;
+    transition: 0.3s;
+    transform: translateY(-0.2rem);
+  }
+  
+  .skill {
+    position: relative;
+    margin-top: 5rem;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.4s;
+    height: 8rem;
+    width: 9rem;
+    background-color: #F8F6E3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-family: "Quicksand", sans-serif;
+
+  }
+
+  .skill.show {
+    opacity: 1;
+    animation: showanime 0.4s;
+  }
+
+  @keyframes showanime{
+    0%{
+      scale: 0;
+    }
+    50%{
+      scale: 1.1;
+    }
+    100%{
+      scale: 1;
+    }
+  }
+
+  .skill img{
+    height: 4rem;
+    width: 4rem;
+    margin: 3px;
+  }
+
+.skill:nth-child(even) {
+  margin-right:8%; 
+}
+
+.skill:nth-child(odd) {
+  margin-left: 9%; 
+}
