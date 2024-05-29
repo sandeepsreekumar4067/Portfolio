@@ -45,11 +45,29 @@
     background-color: #FCFFE0;
     transition: 0.3s;
 }
-.resume{
-    background-color: #FF204E;
-    color: white;
+.resume {
+    background-color: #FF204E; /* Same background color as the mail button */
+    color: white; /* Same text color as the mail button */
     transition: 0.3s;
+    cursor: pointer;
+    border-radius: 20px; /* Add border radius */
+    border: none; /* Remove border */
+    font-size: 1.1rem; /* Same font size as the mail button */
+    width: 9rem; /* Same width as the mail button */
+    height: 2.5rem; /* Same height as the mail button */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+a{
+    text-decoration: none;
+}
+
+.resume:hover {
+    background-color: #FF204E; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+}
+
 .mail,.resume{cursor: pointer;}
 .mail:active,.resume:active{
     scale: 0.8;

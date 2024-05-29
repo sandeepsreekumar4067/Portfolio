@@ -1,17 +1,23 @@
-import "../style/navbar.css"
+import "../style/navbar.css";
+import React from "react";
+
 const Navbar = () => {
-    const openingTag = "<"
-    const name = "Sandeep"
-    const closeTag = "/>"
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return ( 
         <div className="navbar-container">
             <div className="navbar-name">
-                {openingTag} <span> {name} </span> {closeTag}
+                &lt; <span>Sandeep</span> /&gt;
             </div>
             <div className="navbar-buttons">
-                <input type="button" value="Home" />
-                <input type="button" value="About" />
-                <input type="button" value="Connect" />
+                <input type="button" value="Home" onClick={() => scrollToSection("home")} />
+                <input type="button" value="About" onClick={() => scrollToSection("about")} />
+                <input type="button" value="Connect" onClick={() => scrollToSection("connect")} />
             </div>
         </div>
      );

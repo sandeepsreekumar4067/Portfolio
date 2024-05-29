@@ -5,7 +5,7 @@ const About = () => {
     const aboutTag ="About me"
     const closeTag = "/>"
     return ( 
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="skill-title">
                 {openingTag} <span>{aboutTag}</span> {closeTag}
             </div>
