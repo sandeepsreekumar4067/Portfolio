@@ -1,5 +1,5 @@
 import "../style/home.css"
-import blob from "../assets/blob3.gif"
+import blob from "../assets/blob4.gif"
 import progammer from "../assets/transparent-programmer-laptop-man-armchair-work-man-in-armchair-using-laptop-for-workentertainmen661931a65fa392.77797011.png"
 const Home = () => {
     const email = "sandeepsreekumar4067@gmail.com";
