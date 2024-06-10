@@ -3,6 +3,7 @@ import instagram from "../assets/instagram.png"
 import github from "../assets/languageIcons/github.png"
 import linkedin from "../assets/Linkedin.png"
 import myPic from "../assets/myPic2.jpg"
+import X from "../assets/X.png"
 const Connect = () => {
     const handleInstagramClick = () => {
         window.open("https://www.instagram.com/_.hombre_fuerte._", "_blank");
@@ -34,6 +35,10 @@ const Connect = () => {
                     <div className="links" onClick={handleLinkedinClick}>
                         <img src={linkedin} alt="" />
                         Linkedin
+                    </div>
+                    <div className="links" onClick={handleLinkedinClick}>
+                        <img src={X} alt="" />
+                        X.com
                     </div>
                 </div>
             </div>
