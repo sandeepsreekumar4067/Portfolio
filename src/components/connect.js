@@ -14,6 +14,9 @@ const Connect = () => {
       const handleGithubinClick = () => {
         window.open("https://github.com/sandeepsreekumar4067", "_blank");
       };
+      const handleTwitterClick = () => {
+        window.open("https://x.com/sandeep77368", "_blank");
+      };
     return ( 
         <div className="connect-container" id="connect" >
         <div className="connect-description">
@@ -36,7 +39,7 @@ const Connect = () => {
                         <img src={linkedin} alt="" />
                         Linkedin
                     </div>
-                    <div className="links" onClick={handleLinkedinClick}>
+                    <div className="links" onClick={handleTwitterClick}>
                         <img src={X} alt="" />
                         X.com
                     </div>
