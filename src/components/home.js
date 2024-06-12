@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
                 <div className="download-section">
                     <input className="mail" type="button" value="Mail" onClick={handleMailButtonClick} />
-                    <a href="/CV_2024050712340861.pdf" download className="resume">Resume</a>
+                    <a href="/me.pdf" download className="resume">Resume</a>
                 </div>
             </div>
             <div className="blob-and-programmer">
