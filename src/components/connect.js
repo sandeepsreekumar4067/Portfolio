@@ -4,7 +4,7 @@ import github from "../assets/languageIcons/github.png"
 import linkedin from "../assets/Linkedin.png"
 import myPic from "../assets/myPic2.jpg"
 import X from "../assets/X.png"
-import { useTypewriter,Cursor } from "react-simple-typewriter"
+import { useTypewriter } from "react-simple-typewriter"
 const Connect = () => {
     const handleInstagramClick = () => {
         window.open("https://www.instagram.com/_.hombre_fuerte._", "_blank");
