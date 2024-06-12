@@ -29,7 +29,7 @@ const Home = () => {
                         <h3>
                             I'm a <span className="firstpart">{firstPart}</span> <span className={lastWord === 'Developer' ? 'white-developer' : ''}>{lastWord}</span>
                         </h3>
-                        <Cursor cursorColor="white" />
+                        <Cursor cursorColor="white" cursorStyle="|" />
                     </div>
                 </div>
                 <div className="download-section">
