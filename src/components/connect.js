@@ -21,7 +21,7 @@ const Connect = () => {
     const [text] = useTypewriter({
         words:["I am continuously expanding my skill set, currently diving deeper intoweb development and exploring new technologies to stay ahead in the field. My commitment to learning and my enthusiasm for technology drive me to deliver high-quality and innovative solutions ."],
         loop:1,
-        typeSpeed:30
+        typeSpeed:80
     })
     return ( 
         <div className="connect-container" id="connect" >
