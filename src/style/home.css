@@ -31,7 +31,15 @@
 .name-and-details h3{
     font-size: 2.3rem;
 }
-.name-and-details span{color: #FF204E;}
+.firstpart{color: #FF204E;}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-developer {
+    color: white;
+}
 .download-section{
     width: 100%;
     display: flex;
